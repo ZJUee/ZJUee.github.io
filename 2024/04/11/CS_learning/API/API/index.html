@@ -16,25 +16,25 @@
   <meta name="author" content="JimmyEastBrook">
   <meta name="keywords" content="">
   
-    <meta name="description" content="前言骇客是我高中第一任班主任，但其实他早就是僵尸了呵呵，我也差点成为僵尸了，好险。 —-JimmyEastBrook 骇客曾经的名字叫慧根">
+    <meta name="description" content="cookiecookie是浏览器一种本地储存的方式，可以用来保存用户信息，比如用户名、密码、购物车、浏览记录等。 特点：  保存在浏览器上，不参与到服务器的通信过程。 大小限制为4KB左右。 生命周期为浏览器会话期间，关闭浏览器则失效。  cookie的属性：  name：cookie的名称。 value：cookie的值。在请求中以键值对的形式出现，形式为  1Cookie: &lt;name&amp;">
 <meta property="og:type" content="article">
-<meta property="og:title" content="骇客传">
-<meta property="og:url" content="https://zjuee.github.io/2024/04/10/%E7%8B%B1%E4%B8%AD%E5%BE%80%E4%BA%8B/%E9%AA%87%E5%AE%A2%E4%BC%A0/index.html">
+<meta property="og:title" content="API学习笔记">
+<meta property="og:url" content="https://zjuee.github.io/2024/04/11/CS_learning/API/API/index.html">
 <meta property="og:site_name" content="JimmyEastBrook&#39;s Blog">
-<meta property="og:description" content="前言骇客是我高中第一任班主任，但其实他早就是僵尸了呵呵，我也差点成为僵尸了，好险。 —-JimmyEastBrook 骇客曾经的名字叫慧根">
+<meta property="og:description" content="cookiecookie是浏览器一种本地储存的方式，可以用来保存用户信息，比如用户名、密码、购物车、浏览记录等。 特点：  保存在浏览器上，不参与到服务器的通信过程。 大小限制为4KB左右。 生命周期为浏览器会话期间，关闭浏览器则失效。  cookie的属性：  name：cookie的名称。 value：cookie的值。在请求中以键值对的形式出现，形式为  1Cookie: &lt;name&amp;">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-04-10T08:00:00.000Z">
-<meta property="article:modified_time" content="2024-04-10T10:14:15.071Z">
+<meta property="article:published_time" content="2024-04-10T17:04:56.000Z">
+<meta property="article:modified_time" content="2024-04-10T17:06:46.393Z">
 <meta property="article:author" content="JimmyEastBrook">
-<meta property="article:tag" content="回忆录">
-<meta property="article:tag" content="骇客">
+<meta property="article:tag" content="API">
+<meta property="article:tag" content="CS_learning">
 <meta name="twitter:card" content="summary_large_image">
   
   
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>骇客传 - JimmyEastBrook&#39;s Blog</title>
+  <title>API学习笔记 - JimmyEastBrook&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -212,7 +212,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="骇客传"></span>
+            <span id="subtitle" data-typed-text="API学习笔记"></span>
           
         </div>
 
@@ -223,8 +223,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2024-04-10 16:00" pubdate>
-          2024年4月10日 下午
+        <time datetime="2024-04-11 01:04" pubdate>
+          2024年4月11日 凌晨
         </time>
       </span>
     
@@ -235,7 +235,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          48 字
+          2k 字
         
       </span>
     
@@ -246,7 +246,7 @@
         
         
         
-          1 分钟
+          17 分钟
         
       </span>
     
@@ -291,12 +291,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">骇客传</h1>
+            <h1 id="seo-header">API学习笔记</h1>
             
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-04-10T18:14:15+08:00
+                    本文最后更新于 2024-04-11T01:06:46+08:00
                   
                   
 
@@ -306,9 +306,93 @@
             
               <div class="markdown-body">
                 
-                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>骇客是我高中第一任班主任，但其实他早就是僵尸了<br>呵呵，我也差点成为僵尸了，好险。</p>
-<p>—-JimmyEastBrook</p>
-<h2 id="骇客曾经的名字叫慧根"><a href="#骇客曾经的名字叫慧根" class="headerlink" title="骇客曾经的名字叫慧根"></a>骇客曾经的名字叫慧根</h2>
+                <h2 id="cookie"><a href="#cookie" class="headerlink" title="cookie"></a>cookie</h2><p>cookie是浏览器一种本地储存的方式，可以用来保存用户信息，比如用户名、密码、购物车、浏览记录等。</p>
+<p>特点：</p>
+<ol>
+<li>保存在浏览器上，不参与到服务器的通信过程。</li>
+<li>大小限制为4KB左右。</li>
+<li>生命周期为浏览器会话期间，关闭浏览器则失效。</li>
+</ol>
+<p>cookie的属性：</p>
+<ol>
+<li>name：cookie的名称。</li>
+<li>value：cookie的值。<br>在请求中以键值对的形式出现，形式为</li>
+</ol>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs xml">Cookie: <span class="hljs-tag">&lt;<span class="hljs-name">name</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">value</span>&gt;</span>; <span class="hljs-tag">&lt;<span class="hljs-name">name</span>&gt;</span>=<span class="hljs-tag">&lt;<span class="hljs-name">value</span>&gt;</span>;...<br></code></pre></td></tr></table></figure>
+
+<p>生命周期：</p>
+<ol>
+<li>Permanent cookie：<br>设置Expires或Max-Age属性，<br>前者是绝对时间的形式，后者是设置时间+offset的形式，同时设置以maxage为准</li>
+</ol>
+<p>Max-Age&#x3D;0：删除cookie<br>Max-Age&#x3D;n：n秒后过期<br>Max-Age&#x3D;复数的时候，立即删除cookie</p>
+<p>Expires&#x3D;date：date到期时间，到期后删除cookie<br>2. Sessioncookie：设置过期时间后，cookie在浏览器关闭后失效。</p>
+<p>注意：</p>
+<ul>
+<li>同一域名下，不同路径的cookie可以共享，不同域名下，cookie不共享。</li>
+<li>cookie的作用域是路径，不同路径的cookie互不影响。</li>
+<li>cookie的大小限制为4KB左右，过多的cookie会影响性能。</li>
+<li>cookie的安全性依赖于加密传输。</li>
+</ul>
+<h2 id="限制访问"><a href="#限制访问" class="headerlink" title="限制访问"></a>限制访问</h2><p>cookie只是存在于客户端本地的一段文本信息，本身十分不安全，为了提高cookie的安全性，可以采用以下方式限制访问：</p>
+<ol>
+<li>设置HttpOnly属性：</li>
+</ol>
+<p>一般来说，cookie是通过http请求和设置的，在一个请求头中携带Header</p>
+<p>Set-Cookie就让浏览器自动设置好cookie，已经设置过的cookie会被写到在cookie中发送&#x2F;返回</p>
+<p>这个过程管理全部由浏览器完成，但是前端也可以主动访问并设置cookie，比如js可以通过document访问这个页面</p>
+<p>浏览器提供httpOnly属性，可以防止js访问cookie，这样可以防止cookie被盗用，但是也会带来一些限制，比如不能通过js设置cookie的domain和path属性，不能设置cookie的过期时间等。</p>
+<figure class="highlight delphi"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs delphi"><span class="hljs-keyword">Set</span>-Cookie: <span class="hljs-keyword">name</span>=value; HttpOnly<br></code></pre></td></tr></table></figure>
+
+<p>但是这样并不能完全防止js访问cookie，因为js可以直接通过document.cookie访问到cookie，所以还需要配合其他方式来限制访问。</p>
+<h2 id="cookie的作用范围"><a href="#cookie的作用范围" class="headerlink" title="cookie的作用范围"></a>cookie的作用范围</h2><p>几乎所有的网页都使用了cookie，浏览器需要区分不同网站设置的cookie</p>
+<p>Domian和Path属性都可以限制cookie所属的网站，浏览器只会讲数条cookie发送个符合限制的网站的请求中。</p>
+<p>domain限制了cookie所属的域名，浏览器会默认匹配一下的所有的子域名，例如这是了domain&#x3D;example.com，那么浏览器会把example.com、<a target="_blank" rel="noopener" href="http://www.example.com、mail.example.com等都匹配到./">www.example.com、mail.example.com等都匹配到。</a></p>
+<p>如果不限制domain属性。那么浏览器会将请求的target作为domain属性，并且不会匹配子域名，所以不主动设置domain，对cookie的使用反而更加严格</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">Set-Cookie: <span class="hljs-attribute">name</span>=value; <span class="hljs-attribute">Domain</span>=example.com; <span class="hljs-attribute">Path</span>=/<br></code></pre></td></tr></table></figure>
+
+<p>path限制了cookie所属的路径，不设置path路线，则默认为&#x2F;。<br>path不论是否主动设置，都可以匹配到所有的子路径</p>
+<p>我们主导可以有name重复的cookie，浏览器以domain+path来设置cookie的作用范围，在一个范围内（也就是domain和path的字面量相同）的那么是唯一的，但是不同的范围内，可以有重复的cookie</p>
+<h2 id="安全性"><a href="#安全性" class="headerlink" title="安全性"></a>安全性</h2><p>cookie的安全性依赖于加密传输，但是由于cookie本身的不安全性，所以cookie的安全性也不完全可靠。</p>
+<ul>
+<li>加密传输：</li>
+</ul>
+<p>cookie的传输过程是明文传输，所以需要加密传输，比如https。</p>
+<ul>
+<li>防止跨站请求伪造（CSRF）攻击：</li>
+</ul>
+<p>CSRF攻击是指攻击者通过伪装成受害者的浏览器，向网站发送恶意请求，从而盗取用户信息，比如银行转账</p>
+<p>可能是这样发生的，我们在网站A.com上获取了用户的cookie，西施如果网站B.com向A发送了一条请求，其符合我们之前的所有的限制条件（范围限制），所以就会带着该cookie来进行秦秋访问，如果B.com利用这一点向A发送恶意请求，那么就可能盗取用户信息。</p>
+<p>简单介绍跨域和跨站的区别</p>
+<h3 id="站site和域domain"><a href="#站site和域domain" class="headerlink" title="站site和域domain"></a>站site和域domain</h3><p>站site的概念，一般由域名来区别<br>一般的域名服务商售卖xxx.com.cn这样的二级域名，所以我们将二级域名相同的网站成为same site，二级域名不同网站的二级域名成为cross site</p>
+<p>域origin的概念，一般由协议+域名+端口号来区别，比如<a href="https://www.example.com:8080，只有两个网站的schema、host和port都相同，那么他们才是同一个域。">https://www.example.com:8080，只有两个网站的schema、host和port都相同，那么他们才是同一个域。</a></p>
+<p>如果我们假设<em>同源网站</em>一般属于同一所有者，那么基本上统战之内不会发生上述攻击，并且可能期望共享cookie，因此浏览器对cookie做了一个site级别的限制</p>
+<p>samesite属性分不同的级别，strict、lax、none，strict是默认值，lax和none是非严格限制，可以共享cookie，但是不能跨域，strict是严格限制，不能共享cookie，不能跨域，任何cookie都不会被懈怠，意思是说从A.com向B.com发送请求是不会携带任何cookie的</p>
+<p>这样非常安全但是会很不方便</p>
+<p>比如我们分享的是一个github链接，但是跳转之后用户发现自己是未登录状态，必须重新刷新发送cookie才能刷新出登录内容</p>
+<p>因此就需要lax模式来将一部分秦秋从限制中移除，其中就有<a>标识，这样跳转链接中就不会因为跨站而被限制cookie</p>
+<p>none则是完全不进行samesite限制，为了基本的安全保障，只设置了secure<br>(通过https传输)的cookie可以被设置成samesite&#x3D;none，这样就可以跨域共享cookie了，但是也会带来一些安全问题，比如cookie被窃取，所以一般不建议使用none模式</p>
+<p>具体的浏览器怎么处理secure其扭曲就不一定，Safari会直接将cookie设置成strict，Chrome和Firefox则是默认的lax模式，但是都可以设置secure属性来加密传输</p>
+<h3 id="同源策略"><a href="#同源策略" class="headerlink" title="同源策略"></a>同源策略</h3><p>同源策略是浏览器的安全策略，限制了不同源的文档或脚本如何进行交互。</p>
+<p>同源策略限制了不同源的文档或脚本不能读取对方的cookie，防止CSRF攻击。</p>
+<p>同源策略是浏览器的一种安全机制，它是为了防止跨站请求伪造（Cross-site Request Forgery，CSRF）攻击而提出的。</p>
+<p>防止CSRF攻击的方法：</p>
+<ol>
+<li>验证码：</li>
+</ol>
+<p>验证码是一种常用的防止CSRF攻击的方法，验证码是由网站生成的随机字符，用户需要填写验证码才能提交表单。</p>
+<ol start="2">
+<li>同源策略：</li>
+</ol>
+<p>同源策略是浏览器的安全策略，限制了不同源的文档或脚本如何进行交互。</p>
+<p>同源策略限制了不同源的文档或脚本不能读取对方的cookie，防止CSRF攻击。</p>
+<ul>
+<li>限制cookie的使用：</li>
+</ul>
+<p>除了上面提到的限制访问，还可以设置一些限制，比如设置HttpOnly属性，设置过期时间，设置作用范围等。</p>
+<p>设置HttpOnly属性，可以防止js访问cookie，设置过期时间，可以防止cookie过期，设置作用范围可以限制cookie的使用范围。    </p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a target="_blank" rel="noopener" href="https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies">https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Cookies</a><br><a target="_blank" rel="noopener" href="https://www.ruanyifeng.com/blog/2019/09/cookie-and-session.html">https://www.ruanyifeng.com/blog/2019/09/cookie-and-session.html</a><br><a target="_blank" rel="noopener" href="https://www.cnblogs.com/liu-yao/p/10472282.html">https://www.cnblogs.com/liu-yao/p/10472282.html</a><br><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/a3d57d5d5d9d">https://www.jianshu.com/p/a3d57d5d5d9d</a>  </p>
+<h2 id="CORS"><a href="#CORS" class="headerlink" title="CORS"></a>CORS</h2><p>跨域资源共享（Cross-Origin Resource Sharing，CORS）是一种机制，它使用额外的HTTP头来告诉浏览器，让运行在一个 origin (domain) 上的Web应用被允许访问来自不同源服务器上的指定的资源。</p>
+
                 
               </div>
             
@@ -320,9 +404,9 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/" class="print-no-link">#回忆录</a>
+        <a href="/tags/API/" class="print-no-link">#API</a>
       
-        <a href="/tags/%E9%AA%87%E5%AE%A2/" class="print-no-link">#骇客</a>
+        <a href="/tags/CS-learning/" class="print-no-link">#CS_learning</a>
       
     </div>
   
@@ -334,8 +418,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>骇客传</div>
-      <div>https://zjuee.github.io/2024/04/10/狱中往事/骇客传/</div>
+      <div>API学习笔记</div>
+      <div>https://zjuee.github.io/2024/04/11/CS_learning/API/API/</div>
     </div>
     <div class="license-meta">
       
@@ -347,7 +431,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2024年4月10日</div>
+          <div>2024年4月11日</div>
         </div>
       
       
@@ -379,18 +463,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2024/04/10/%E7%8B%B1%E4%B8%AD%E5%BE%80%E4%BA%8B/%E8%A2%AB%E4%BA%BA%E5%BF%BD%E7%95%A5%E7%9A%84%E8%A7%84%E5%88%99/" title="被人忽略的规则">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">被人忽略的规则</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/04/10/CS_learning/git/git_note/" title="git_note">
-                        <span class="hidden-mobile">git_note</span>
+                      <a href="/2024/04/10/CS_learning/C/%E6%96%87%E4%BB%B6/" title="文件">
+                        <span class="hidden-mobile">文件</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
